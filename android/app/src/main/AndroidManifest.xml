@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.Termux"
+    android:sharedUserLabel="@string/shared_user_label">
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
